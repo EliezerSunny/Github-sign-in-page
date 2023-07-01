@@ -1,0 +1,192 @@
+body{
+	background-color: #101922;
+	color: white;
+	font-family: sans-serif;
+}
+
+.container{
+	text-align: center;
+	margin-top: 50px;
+}
+.container img{
+	width: 80px;
+}
+.container h3{
+	font-size: 21px;
+	color: grey;
+	font-weight: 100;
+}
+.container label{
+	font-size: 14px;
+	font-weight: 100;
+}
+.container p{
+	margin-top: 5px;
+}
+.container input[type=text], input[type=password]{
+	background: transparent;
+	height: 30px;
+	width: 95%;
+	border-radius: 5px;
+	border: 1px solid #202528;
+	outline: none;
+	color: white;
+	padding-left: 5px;
+}
+.container input[type=submit]{
+	background-color: #208632;
+	border: none;
+	padding: 5px;
+	height: 33px;
+	width: 100%;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	color: white;
+	font-size: 13px;
+}
+.container input[type=submit]:hover{
+	background-color: #4ca55b;
+	transition: 0.5s;
+}
+.form{
+	border: 1px solid #202528;
+	border-radius: 5px;
+	padding: 12px;
+	text-align: left;
+	margin: auto;
+	width: 23%;
+}
+.password label{
+	display: inline-block;
+	float: left;
+}
+.password a{
+	float: right;
+	color:  #81a0bd;
+	text-decoration: none;
+	font-size: 12px;
+	
+}
+.create{
+	border: 1px solid #202528;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 13px;
+	width: 23%;
+	margin: auto;
+
+}
+.create a{
+	text-decoration: none;
+	color: #81a0bd;
+}
+
+.link{
+	list-style-type: none;
+	font-size: 13px;
+	margin-right: 10px;
+}
+.link li{
+	display: inline-block;
+	margin-right: 12px;
+	margin-top: 30px;
+}
+.link li a{
+	text-decoration: none;
+	color:  #81a0bd;
+}
+
+@media  (max-width: 800px){
+.container{
+	text-align: center;
+	margin-top: 50px;
+}
+.container img{
+	width: 80px;
+}
+.container h3{
+	font-size: 21px;
+	color: grey;
+	font-weight: 100;
+}
+.container label{
+	font-size: 12px;
+	font-weight: 100;
+}
+.container p{
+	margin-top: 5px;
+}
+.container input[type=text], input[type=password]{
+	background: transparent;
+	height: 25px;
+	width: 95%;
+	border-radius: 5px;
+	border: 1px solid #202528;
+	outline: none;
+	color: white;
+	padding-left: 5px;
+}
+.container input[type=submit]{
+	background-color: #208632;
+	border: none;
+	padding: 5px;
+	width: 100%;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	color: white;
+	font-size: 13px;
+}
+.container input[type=submit]:hover{
+	background-color: #4ca55b;
+	transition: 0.5s;
+}
+.form{
+	border: 1px solid #202528;
+	border-radius: 5px;
+	padding: 12px;
+	text-align: left;
+	margin: auto;
+	width: 50%;
+}
+.password label{
+	display: inline-block;
+	float: left;
+}
+.password a{
+	float: right;
+	color:  #81a0bd;
+	text-decoration: none;
+	font-size: 12px;
+	
+}
+
+.create{
+	border: 1px solid #202528;
+	border-radius: 5px;
+	font-size: 13px;
+	width: 50%;
+	margin: auto;
+
+}
+.create a{
+	text-decoration: none;
+	color: #81a0bd;
+}
+
+.link{
+	list-style-type: none;
+	font-size: 13px;
+	margin-right: 10px;
+}
+.link li{
+	display: inline-block;
+	margin-right: 12px;
+	margin-top: 30px;
+}
+.link li a{
+	text-decoration: none;
+	color:  #81a0bd;
+}
+}
